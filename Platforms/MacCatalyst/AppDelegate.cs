@@ -1,0 +1,10 @@
+﻿using Foundation;
+
+namespace APP_Gimnasio_MVVM
+{
+    [Register("AppDelegate")]
+    public class AppDelegate : MauiUIApplicationDelegate
+    {
+        protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+    }
+}
